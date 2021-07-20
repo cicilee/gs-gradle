@@ -15,7 +15,6 @@ repositories {
 }
 // end::repositories[]
 
-
 // tag::jar[]
 jar {
     archiveBaseName = 'gs-gradle'
