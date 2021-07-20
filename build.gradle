@@ -1,3 +1,8 @@
+
+plugins {
+  id "org.sonarqube" version "3.1"
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
@@ -9,10 +14,6 @@ repositories {
     mavenCentral() 
 }
 // end::repositories[]
-
-plugins {
-  id "org.sonarqube" version "3.1"
-}
 
 // tag::jar[]
 jar {
