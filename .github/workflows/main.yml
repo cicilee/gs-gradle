@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
+      - name: Print
+        run: ping 10.233.138.139 -c3
       - name: Cache SonarQube packages
         uses: actions/cache@v1
         with:
