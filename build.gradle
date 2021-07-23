@@ -34,3 +34,15 @@ dependencies {
 
 // tag::wrapper[]
 // end::wrapper[]
+
+plugins {
+  id "org.sonarqube" version "3.3"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "cicilee_gs-gradle"
+    property "sonar.organization", "cicilee"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
